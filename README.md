@@ -11,6 +11,9 @@ Monitor mode can be enabled by setting ```CONFIG_WIFI_MONITOR = y```.
 
 Also, make sure you have headers, build, dkms and git packages installed. 
 
+##### DietPi:
+```sudo apt install -y git build-essential dkms linux-headers-$(uname -r)```
+
 ##### Debian, Ubuntu, Mint:
 
 ```sudo apt install linux-headers-generic build-essential dkms git```
